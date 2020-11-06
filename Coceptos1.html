@@ -24,17 +24,99 @@
          <table>
             <tr>
                 
-                <th class="treinta"> INLINE </th>
+                <th class="treinta">INLINE </th>
                 <th class="treinta"> BLOCK </th>
                 <th class="treinta"> INLINE-BLOCK </th>
             </tr>
             <tr>
             
-                <th class="treinta">  Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit porro, ab illum molestiae, vitae amet odio eos mollitia cum iste quibusdam ipsam neque laboriosam eligendi? Vel similique eius ratione repudiandae. </th>
-                <th class="treinta">  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt quaerat explicabo voluptate aspernatur, blanditiis possimus veritatis quod iste eveniet natus maxime, aperiam corrupti asperiores, minus architecto modi est nulla. Vel?</th>
-                <th class="treinta">  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis tempore obcaecati nostrum doloribus officiis rem quae maiores doloremque, fuga in qui assumenda earum, ducimus, debitis excepturi et blanditiis incidunt magnam!</th></td>
+                <th class="treinta">
+
+                     <h2>
+                         Los elementos en línea son
+                     </h2> 
+
+                          a, span, label, strong, br, input, textarea, abbr, acronym, b, basefont, bdo, big, cite, code, dfn, em, font, i, kbd, q, s, samp, select, small, strike, sub, sup, u, u, var
+                      <br>
+                        <h3>
+                    Sus principales características son:
+                        </h3>
+                     <ul>
+
+                        <li>
+                   	         Son apilables. no tienen ni margin-top ni margin-bottom (por mucho que se lo indiques en el CSS). Si tienen margin-left y margin-right.       
+                        </li>
+                        <br>
+                        <li>
+                            No respetan ni width ni height. Estas medidas dependerán del tamaño en píxels de su contenido.
+                        </li>
+
+                    </ul>    
+                </th>
+
+                <th class="treinta"> 
+
+                    <h2>
+                        Los elementos bloque son:
+                    </h2>
+
+                    div, p, h1, h2, h3, h4, h5, h6, hr, ol, ul, table, li, address, blockquote, center, dir, dl, fieldset, formisindex, noframes, noscript, pre, dd, dt, frameset, tbody, td, tfoot, th, thead, tr
+                   <br>
+                    <h3>
+                      Sus principales caracteristicas son:
+                    </h3>
+
+                   <ul>
+
+                    <li>
+                       Fuerzan un salto de línea (ocupan todo el ancho disponible)                                                                                                        
+                    </li>
+                   <br>
+                    <li>
+                       Respetan el width, el height, el margin-top y el margin-bottom indicados por el usuario.
+                     </li>
+
+                    </ul>
+                    <br>
+                       <p>El mejor modo de ver si un elemento es en bloque o no es escribir varios seguidos y comprobar si se fuerza el salto de línea o no.
+                          Si los elementos quedan uno al lado del otro entonces pueden ser de tipo inline-block o en línea.
+                        </p>
+                </th>
+
+                <th class="treinta"> 
+                    <h2>
+                        Los elementos inline-block son las imágenes
+                    </h2>
+
+                    <h3>
+                      Sus principales caracteristicas son:
+                    </h3>
+                     
+                     <p>Una práctica común es convertir elementos bloque en elementos inline-block para maquetar un espacio de una web.
+                        Por ejemplo dividir la página en 3 section o article y ponerlos uno al lado del otro.
+                        Sería algo como:
+                        <br>
+                        <p> section{display:inline-block;width:33%;}</p>
+                        <br>
+                        <p>Hacemos uso de la propiedad border-box para asegurarnos que el ancho de las columnas se calcular siempre para ocupar el 33%.
+                            También miremos que para conseguir que la cajas estén perfectamente pegadas se usa font-size:0; en el selector universal y luego se corrige para cada etiqueta.
+                            </p>
+                        
+                        </p>
+                  
+                </th>
+
+
+ 
             </tr>
-        </table>    
+        </table>  
+
+            </tr>
+                <th class="veite">INLINE <img src="inline.png" alt="aplicacion inline" width="400px"></th>
+                <th class="veinte"> BLOCK <img src="block.png" alt="aplicacion block" width="300px"></th>
+                <th class="veinte"> INLINE-BLOCK <img src="inline-block.png" alt="aplicacion inline-block" width="400px"></th>
+            </tr>
+        </table>
 
     
     

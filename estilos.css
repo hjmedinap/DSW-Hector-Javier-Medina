@@ -35,9 +35,17 @@ body{
 table {
     width: 100%;
 }
-.ten {
-     width: 10%
+.treinta {
+     width: 30% 
+    
 }
-.twenty {
-     width: 20%;
+.cincuenta {
+     width: 50%;
 }
+.tabla2{
+    padding: 40px;
+    width: 100%;
+    margin: 40px;
+    color: #f47920;
+    text-align: justify;
+}    
